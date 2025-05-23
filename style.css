@@ -1,5 +1,6 @@
 body{
   padding-top: 60px;
+  overflow-x: hidden;
 }
 
 #dugme{
@@ -180,11 +181,7 @@ h1{
 }
 
 
-  @media (max-width: 575.98px) {
-    #POSETITENAS {
-      font-size: 40pt;
-    }
-  }
+ 
 
 /* Dugmad kategorija */
 .filter-btn {
@@ -225,6 +222,26 @@ h1{
   border: 0;
   border-radius: 10px;
 }
+
+/* Kada je širina ekrana 375px ili manja */
+@media (max-width: 375px) {
+  #foto {
+    font-size: 40px; /* Manja veličina za male ekrane */
+  }
+}
+
+@media (max-width: 520px) {
+  #POSETITENAS {
+    font-size: 42pt;
+  }
+}
+
+@media (max-width: 389px) {
+  #POSETITENAS {
+    font-size: 30pt;
+  }
+}
+
 
 /* 📱 Stil za mobilne telefone */
 @media (max-width: 768px) {
